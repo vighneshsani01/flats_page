@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Flats Page</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="flats_page.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		crossorigin="anonymous" />
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+	<!-- HOME PAGE -->
+	<div id="sectionhomeflatspage">
+		<div class="flats_home_page_bg_container">
+			<div class="container-fluid">
+				<div
+					class="row min-vh-100 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
+					<div class="col-12 col-md-6 p-0 p-md-5">
+						<div
+							class="p-3 text-center rounded-top-4 flats_home_page_bg_container_card shadow-lg d-md-flex flex-column justify-content-center">
+							<div>
+								<h1 class="text-warning">Sunrise Avenue</h1>
+								<p class="text-secondary" id="para">
+									Move to what moves you.
+								</p>
+								<button class="btn btn-warning text-white"
+									onclick="display('sectionflatsinfoflatspage')">
+									Book Flat
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FLATS LIST PAGE -->
+	<div id="sectionflatsinfoflatspage">
+		<div class="flats_flatsinfo_bg_container">
+			<div class="container-fluid">
+				<div class="row p-0">
+					<div class="col-md-4 p-0">
+						<div class="flats_flatsinfo_bg_container_lg_image d-none d-md-block">
+							<div class="vh-100 d-flex flex-column justify-content-between">
+								<h1 class="text-warning p-3">Sunrise Avenue</h1>
+								<button class="btn btn-warning m-3 text-white"
+									onclick="display('sectionhomeflatspage')">
+									Back
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-8 p-0">
+						<div class="bg-white">
+							<div class="p-3 bg-white shadow-sm d-md-none">
+								<h1 class="text-warning">Sunrise Avenue</h1>
+							</div>
+							<div class="overflow-auto vh-100 p-4">
+								<div class="mb-3">
+									<h1 class="text-primary fs-2 fw-bold" id="ourflatsheading">
+										Flats On Rent 
+									</h1>
+								</div>
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-12 col-lg-6">
+											<div class="bg-light rounded-3 shadow-lg mb-4"
+												onclick="display('sectionflatdetailed1')">
+												<div class="container-fluid">
+													<div class="row">
+														<div class="col-4 p-0">
+															<img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png"
+																class="img-fluid flats_info_cards_image" />
+														</div>
+														<div class="col-8 p-0">
+															<div class="p-3 overflow-auto"
+																id="flats_info_cards_discription">
+																<h1 class="fs-4">3BHK Flat</h1>
+																<p>
+																	This is a fully furnished house with
+																	handmade furniture including a luxury en-
+																	suite facilities pack. Its built-up area is
+																	about 1600sq.ft.
+																</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-lg-6">
+											<div class="bg-light rounded-3 shadow-lg mb-4"
+												onclick="display('sectionflatdetailed2')">
+												<div class="container-fluid">
+													<div class="row">
+														<div class="col-4 p-0">
+															<img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png"
+																class="img-fluid flats_info_cards_image" />
+														</div>
+														<div class="col-8 p-0">
+															<div class="p-3 overflow-auto"
+																id="flats_info_cards_discription">
+																<h1 class="fs-4">2BHK Flat</h1>
+																<p>
+																	A minimalist house made for modern-day
+																	families. It is fully furnished with
+																	trending furniture. Its built-up area is
+																	about 1200sq.ft.
+																</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-lg-6">
+											<div class="bg-light rounded-3 shadow-lg mb-4"
+												onclick="display('sectionflatdetailed3')">
+												<div class="container-fluid">
+													<div class="row">
+														<div class="col-4 p-0">
+															<img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png"
+																class="img-fluid flats_info_cards_image" />
+														</div>
+														<div class="col-8 p-0">
+															<div class="p-3 overflow-auto"
+																id="flats_info_cards_discription">
+																<h1 class="fs-4">4BHK Flat</h1>
+																<p>
+																	A contemporary home with more color and
+																	vibrancy. It is fully furnished with elegant
+																	furniture. Its built-up area is about
+																	3600sq.ft.
+																</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-lg-6">
+											<div class="bg-light rounded-3 shadow-lg mb-4"
+												onclick="display('sectionflatdetailed4')">
+												<div class="container-fluid">
+													<div class="row">
+														<div class="col-4 p-0">
+															<img src="https://res.cloudinary.com/dgbwlxusq/image/upload/v1762087523/Screenshot_2025-11-02_181431_mk0y6m.png"
+																class="img-fluid flats_info_cards_image rounded-2" />
+														</div>
+														<div class="col-8 p-0">
+															<div class="p-3 overflow-auto"
+																id="flats_info_cards_discription">
+																<h1 class="fs-4">1BHK Flat</h1>
+																<p>
+																	This is a fully furnished house with
+																	handmade furniture including a luxury en-
+																	suite facilities pack. Its built-up area is
+																	about 1600sq.ft.
+																</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="p-3 bg-white shadow-sm d-md-none">
+								<button class="btn btn-warning text-white" onclick="display('sectionhomeflatspage')">
+									Back
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- DETAILED FLAT SECTIONS -->
+
+	<!-- 3BHK -->
+	<div id="sectionflatdetailed1">
+		<div class="flats_page_detailed_section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-6 p-0">
+						<img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png"
+							class="img-fluid vw-100 vh-md-100" />
+					</div>
+					<div class="col-12 col-md-6 p-0">
+						<div class="p-4">
+							<h1 class="roboto fw-bold text-warning">Rs 3000/-</h1>
+							<p>
+								<img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
+									width="30" />
+								D/N 5-2, Food Street, Indore
+							</p>
+							<p>Fully furnished 3BHK flat with luxury features.</p>
+							<form id="bookingForm1">
+								<h5>Confirm Booking</h5>
+								<input type="text" id="user_name1" placeholder="Your Name" required
+									class="form-control mb-2" />
+								<input type="email" id="user_email1" placeholder="Your Email" required
+									class="form-control mb-2" />
+								<input type="hidden" id="flat_name1" value="3BHK Flat" />
+								<div class="d-flex gap-2 mt-2">
+									<button type="submit" class="btn btn-warning text-white flex-fill">
+										Confirm
+									</button>
+									<button type="button" class="btn btn-outline-secondary flex-fill"
+										onclick="display('sectionflatsinfoflatspage')">
+										Back
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 2BHK -->
+	<div id="sectionflatdetailed2">
+		<div class="flats_page_detailed_section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-6 p-0">
+						<img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png"
+							class="img-fluid vw-100 vh-md-100" />
+					</div>
+					<div class="col-12 col-md-6 p-0">
+						<div class="p-4">
+							<h1 class="roboto fw-bold text-warning">Rs 2000/-</h1>
+							<p>
+								<img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
+									width="30" />
+								D/N 6-2, Food Street, Indore
+							</p>
+							<p>Modern 2BHK flat for families.</p>
+							<form id="bookingForm2">
+								<h5>Confirm Booking</h5>
+								<input type="text" id="user_name2" placeholder="Your Name" required
+									class="form-control mb-2" />
+								<input type="email" id="user_email2" placeholder="Your Email" required
+									class="form-control mb-2" />
+								<input type="hidden" id="flat_name2" value="2BHK Flat" />
+								<div class="d-flex gap-2 mt-2">
+									<button type="submit" class="btn btn-warning text-white flex-fill">
+										Confirm
+									</button>
+									<button type="button" class="btn btn-outline-secondary flex-fill"
+										onclick="display('sectionflatsinfoflatspage')">
+										Back
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 4BHK -->
+	<div id="sectionflatdetailed3">
+		<div class="flats_page_detailed_section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-6 p-0">
+						<img src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png"
+							class="img-fluid vw-100 vh-md-100" />
+					</div>
+					<div class="col-12 col-md-6 p-0">
+						<div class="p-4">
+							<h1 class="roboto fw-bold text-warning">Rs 4000/-</h1>
+							<p>
+								<img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
+									width="30" />
+								D/N 5-2, Food Street, Indore
+							</p>
+							<p>Spacious and elegant 4BHK home.</p>
+							<form id="bookingForm3">
+								<h5>Confirm Booking</h5>
+								<input type="text" id="user_name3" placeholder="Your Name" required
+									class="form-control mb-2" />
+								<input type="email" id="user_email3" placeholder="Your Email" required
+									class="form-control mb-2" />
+								<input type="hidden" id="flat_name3" value="4BHK Flat" />
+								<div class="d-flex gap-2 mt-2">
+									<button type="submit" class="btn btn-warning text-white flex-fill">
+										Confirm
+									</button>
+									<button type="button" class="btn btn-outline-secondary flex-fill"
+										onclick="display('sectionflatsinfoflatspage')">
+										Back
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 1BHK -->
+	<div id="sectionflatdetailed4">
+		<div class="flats_page_detailed_section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-6 p-0">
+						<img src="https://res.cloudinary.com/dgbwlxusq/image/upload/v1762087523/Screenshot_2025-11-02_181431_mk0y6m.png"
+							class="img-fluid vw-100 vh-md-100" />
+					</div>
+					<div class="col-12 col-md-6 p-0">
+						<div class="p-4">
+							<h1 class="roboto fw-bold text-warning">Rs 1500/-</h1>
+							<p>
+								<img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
+									width="30" />
+								D/N 7-1, Food Street, Indore
+							</p>
+							<p>Cozy and affordable 1BHK flat.</p>
+							<form id="bookingForm4">
+								<h5>Confirm Booking</h5>
+								<input type="text" id="user_name4" placeholder="Your Name" required
+									class="form-control mb-2" />
+								<input type="email" id="user_email4" placeholder="Your Email" required
+									class="form-control mb-2" />
+								<input type="hidden" id="flat_name4" value="1BHK Flat" />
+								<div class="d-flex gap-2 mt-2">
+									<button type="submit" class="btn btn-warning text-white flex-fill">
+										Confirm
+									</button>
+									<button type="button" class="btn btn-outline-secondary flex-fill"
+										onclick="display('sectionflatsinfoflatspage')">
+										Back
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- EMAILJS SCRIPT -->
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+	<script>
+		(function () {
+			emailjs.init("CYzrOeBM5_VF41nXO");
+		})();
+
+		const forms = [1, 2, 3, 4];
+		forms.forEach((num) => {
+			document
+				.getElementById(`bookingForm${num}`)
+				.addEventListener("submit", function (e) {
+					e.preventDefault();
+					emailjs
+						.send("service_ol35oar", "template_vz7j3td", {
+							user_name: document.getElementById(`user_name${num}`).value,
+							user_email: document.getElementById(`user_email${num}`).value,
+							flat_name: document.getElementById(`flat_name${num}`).value,
+						})
+						.then(
+							() => {
+								alert(
+									"✅ Booking Confirmed! A confirmation email has been sent."
+								);
+								this.reset();
+							},
+							(error) => {
+								alert("❌ Error sending email. Check console for details.");
+								console.error(error);
+							}
+						);
+				});
+		});
+	</script>
+
+	<script type="text/javascript"
+		src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>

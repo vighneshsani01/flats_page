@@ -1,0 +1,94 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.flats_home_page_bg_container {
+  background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+h1,
+p,
+button {
+  overflow-wrap: anywhere;
+}
+
+.flats_home_page_bg_container_card {
+  background-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .flats_home_page_bg_container_card {
+    background-color: #cccccc80 !important;
+    border-radius: 25px !important;
+    height: 50vh !important;
+  }
+
+  .flats_home_page_bg_container_card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+
+  #para {
+    color: #ffffff !important;
+  }
+}
+
+.flats_flatsinfo_bg_container_lg_image {
+  background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 400px) {
+  #flats_info_cards_discription {
+    height: 100px;
+  }
+}
+
+@media (min-width: 400px) {
+  #flats_info_cards_discription {
+    height: 200px;
+  }
+}
+
+.flats_info_cards_image:hover {
+  transform: scale(1.03);
+  transition: 0.7s;
+  box-shadow: 4px 4px 20px #cccccc80;
+}
+
+#ourflatsheading {
+  font-family: "roboto";
+}
+
+.flats_page_detailed_section_location_icon {
+  width: 30px;
+  height: 25px;
+}
+
+.roboto {
+  font-family: "roboto";
+}
+
+@media (min-width: 768px) {
+  .vh-md-100 {
+    min-height: 100vh;
+    max-height: 100vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .vh-md-100 {
+    max-height: 65vh;
+  }
+}
